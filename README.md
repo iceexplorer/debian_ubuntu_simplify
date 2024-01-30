@@ -5,9 +5,9 @@ The scripts are mainly tested on Debian, but also on Ubuntu. It may also happen 
 
 # Debian and Ubuntu Setup Scripts Repository
 
-Welcome to this Debian and Ubuntu Setup Scripts repository! This repository is dedicated to providing a collection of scripts for simplifying the setup and management of Debian and Ubuntu machines. The scripts shared here are based on personal experiences and opinions, with the understanding that they may not cover every use case.
+Welcome to this Debian and Ubuntu Setup Scripts repository! This repository is dedicated to providing a collection of scripts for simplifying the setup and management of Debian and Ubuntu machines. The scripts shared here are what I always need to do, or correct, after installing a new Debian or Ubuntu system. It might be that I am plain stupid, or just forgetful (I hope for the latter ;) for making the same mistakes over, and over again. The need for these scripts is based on personal experiences and opinions, with the understanding that they may not cover every use case.
 
-These first weeks after opening the repo (starting from the last day of January 2024), it might be that some of the scripts I uploaded were not the ones that worked... I will first upload everything I believe was working, and within February 2024 I will verify every scripts on my Kubernets Cluster (that I am proudly working on and will share as a new "set-up-script" project)
+These first weeks after opening the repo (starting from the last day of January 2024), it might be that some of the scripts I uploaded were not the ones that worked... I will first upload everything I believe was working, and within February 2024 I will verify every script on my Kubernetes Cluster that I am proudly working on, and will share as a new "set-up-script" project (It is f**** needed since most guides lead to a non-working system if you tend to keep it a bit secure)
 
 After all scripts are verified to work as expected, I will make some scripts in the main folder to make this easy. As of now, the scripts are fragmented and sorted by function. The plan is to make a good "overall" .sh file that is user friendly and is located at the root of this project.
 
