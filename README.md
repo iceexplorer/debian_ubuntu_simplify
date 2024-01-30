@@ -1,5 +1,5 @@
 # debian_ubuntu_simplify
-In this repo you will find scripts to make your Linux experience more easy. The scripts are mainly tested on Debian, but also on Ubuntu. It may also happen that the scripts will work well on other Debian based systems (such as Ubuntu)
+In this repo you will find scripts to make your Linux experience more easy. The scripts are mainly tested on Debian, but also on Ubuntu. It may also happen that the scripts will work well on other Debian-based systems (such as Ubuntu)
 
 # Debian and Ubuntu Setup Scripts Repository
 
@@ -34,3 +34,40 @@ Contributions to this repository are welcome! Whether suggesting improvements, r
 ## License
 
 This project is licensed under the [Apache License 2.0](LICENSE).
+
+Apache License 2.0 Overview
+The scripts in this repository are licensed under the Apache License 2.0, a permissive open-source license that allows you to freely use, modify, distribute, and sublicense the scripts.
+
+Key Points:
+Permission:
+
+You are granted extensive permissions to use, modify, and distribute the scripts.
+Private and Commercial Use:
+
+The Apache License 2.0 explicitly allows the use of the scripts for both private and commercial purposes. Whether you're setting up your personal machine or configuring systems for a business, you're covered.
+Modifications and Derivatives:
+
+You are free to modify the scripts and create derivative works. You can adapt the scripts to suit your specific needs.
+Distribution:
+
+You can distribute the scripts, either in their original or modified form, as long as you comply with the terms of the license.
+No Trademark Use:
+
+The license does not grant permission to use any trademarks, service marks, or trade names associated with the scripts.
+No Warranty:
+
+The scripts are provided "as is" without warranties or conditions of any kind, either expressed or implied.
+Use Cases:
+Private Use:
+
+You can freely use the scripts for personal projects, customizing them according to your preferences.
+Commercial Use:
+
+Businesses can leverage these scripts for various purposes, including setup and configuration of Debian and Ubuntu systems.
+Distribution:
+
+Distribute the scripts within your organization or share them with the community.
+Contributions:
+Contributions to the repository are welcome under the terms of the Apache License 2.0. If you enhance the scripts or provide additional features, your contributions can benefit both individuals and businesses.
+
+By using these scripts, you are embracing the flexibility and freedom offered by the Apache License 2.0, enabling a wide range of uses and contributions.
