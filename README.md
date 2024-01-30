@@ -9,7 +9,7 @@ Welcome to this Debian and Ubuntu Setup Scripts repository! This repository is d
 
 These first weeks after opening the repo (starting from the last day of January 2024), it might be that some of the scripts I uploaded were not the ones that worked... I will first upload everything I believe was working, and within February 2024 I will verify every script on my Kubernetes Cluster that I am proudly working on, and will share as a new "set-up-script" project (It is f**** needed since most guides lead to a non-working system if you tend to keep it a bit secure)
 
-After all scripts are verified to work as expected, I will make some scripts in the main folder to make this easy. As of now, the scripts are fragmented and sorted by function. The plan is to make a good "overall" .sh file that is user friendly and is located at the root of this project.
+After all scripts are verified to work as expected, I will make some scripts in the main folder to make this easy. As of now, the scripts are fragmented and sorted by function. The plan is to make a good "overall" .sh file that is user-friendly and is located at the root of this project.
 
 ALL help is welcome! 
 
