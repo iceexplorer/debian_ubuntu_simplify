@@ -1,11 +1,13 @@
 # Simplify your life as an Ubuntu and Debian user
-In this repo, you will find scripts to make your Linux experience more easy. Based on all the mistakes I have done, and continue to make after 20 years of working with Debian and Ubuntu in "real life" (So... no, it is not just you ;)
+In this repo, you will find scripts to make your Linux experience more easy. Based on all the mistakes I have made, and continue to make, after 20 years of working with Debian and Ubuntu in "real life" (So... no, it is not just you ;)
 
-The scripts are mainly tested on Debian, but also on Ubuntu. It may also happen that the scripts will work well on other Debian-based systems (such as Ubuntu)
+The scripts are mainly tested on Debian, but also on Ubuntu. It may also happen that the scripts will work well on other Debian-based systems (such as Ubuntu). Please give feedback on what distros these scripts might be useful on (I only do Debian and some Ubuntu`s for fun).
 
 # Debian and Ubuntu Setup Scripts Repository
 
-Welcome to the Debian and Ubuntu Setup Scripts repository! This repository is dedicated to providing a collection of scripts for simplifying the setup and management of Debian and Ubuntu machines. The scripts shared here are based on personal experiences and opinions, with the understanding that they may not cover every use case.
+Welcome to this Debian and Ubuntu Setup Scripts repository! This repository is dedicated to providing a collection of scripts for simplifying the setup and management of Debian and Ubuntu machines. The scripts shared here are based on personal experiences and opinions, with the understanding that they may not cover every use case.
+
+These first weeks after opening the repo (starting from the last day of January 2024), it might be that some of the scripts I uploaded were not the ones that worked... I will first upload everything I believe was working, and within February 2024 I will verify every scripts on my Kubernets Cluster (that I am proudly working on and will share as a new "set-up-script" project)
 
 ## Purpose
 
