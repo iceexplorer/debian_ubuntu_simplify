@@ -1,5 +1,5 @@
-# Simplify your life as an Ubuntu and Debian user"
-In this repo, you will find scripts to make your Linux experience more easy. Based on all the mistakes I`ve done, and continue to make after 20 years of working with Debian and Ubuntu in "real life" (So... no, it`s not just you ;)
+# Simplify your life as an Ubuntu and Debian user
+In this repo, you will find scripts to make your Linux experience more easy. Based on all the mistakes I have done, and continue to make after 20 years of working with Debian and Ubuntu in "real life" (So... no, it is not just you ;)
 
 The scripts are mainly tested on Debian, but also on Ubuntu. It may also happen that the scripts will work well on other Debian-based systems (such as Ubuntu)
 
