@@ -1,18 +1,16 @@
 # Simplify your life as a Debian or Ubuntu user
 In this repo, you will find scripts to make your Linux experience more easy. Based on all the mistakes I have made, and continue to make, after 20 years of working with Debian and Ubuntu in "real life" (So... no, it is not just you ;)
 
-Most of my machines are servers, many of them with GUI (Graphical User Interface) and a lot of them with only CLI (Command Line Interface). Since I am "deep" into machine learning (ML, or AI for those of you working in marketing and know nothing about Tech ;) there will soon be guides and scripts to implement NVIDIA GPUs into your cluster. Right now "nothing" seems to work ;)
+Most of my machines are servers, many of them with GUI (Graphical User Interface) and a lot of them with only CLI (Command Line Interface). 
 
 The scripts are mainly tested on Debian, but also on Ubuntu. It may also happen that the scripts will work well on other Debian-based systems (such as Ubuntu). Please give feedback on what distros these scripts might be useful on (I only do Debian and some Ubuntu`s for fun).
 
 If you choose to run the script https://github.com/iceexplorer/debian_ubuntu_simplify/blob/main/install_minimum.sh this will install some needed security features such as ufw (Uncomplicated Firewall) which controls IPtables, which perhaps is the world's best FireWall, configures it to not block you out of your server (SSH). In addition, the script installs the SSH server and everything needed to make, handle, and install certificates. In addition, it protects your system by installing an application called fail2ban that protects your system from direct attacks, such as DDoS attacks. The script will also clone (copy) all scripts and programs to your home directory, and keep it up to date every week. Nothing will be run without you running it, but it will keep you from checking this site every day because you will know that you are always up to date :) 
 
-If you do not know what you are doing (e.g. a previous Windows user ;) Just run it!
-
-If you think you know what you are doing, just read the code, "cherry-pick" or just decide to go with the flow.
+If you know what you are doing, just read the code, "cherry-pick" or just decide to go with the flow.
 
 # How to run the scripts right now?
-Sometime in the near future, there will be a user-friendly script to use the scripts released here. Right now, these scripts are NOT user-friendly 🤭 even though this whole project is about being user-friendly 🤪 These are just my personal made scripts, and I just need a bit more time to make them user-friendly for the public domain. Please bear with me, and my "nerdy" tendencies where the how-to is in my brain only. Until I find the time, this is how you can run the scripts:
+The plan is to make a user-friendly script to use the scripts released here. Right now, these scripts are NOT user-friendly 🤭 even though this whole project is about being user-friendly 🤪 These are just my personal made scripts, and I just need a bit more time to make them user-friendly for the public domain. Please bear with me, and my "nerdy" tendencies where the how-to is in my brain only. Until I find the time, this is how you can run the scripts:
 
 **ALL scripts NEED to be run as super-root. To be super-root use the command "su -" in the command line **
 
@@ -20,7 +18,7 @@ Example to become "super root"
 su -
 (enter root password, NOT your user password, but the password to the root account. If you do not have the root password, run this script as sudo https://github.com/iceexplorer/debian_ubuntu_simplify/blob/main/scripts/system/ubuntu_enable_root.sh )
 
-The scripts have ONLY been verified to run as the super-administrator on Debian. This will mean running the command "su - " (without the " in the front and beginning "). DO NOT try to run the scripts without the "-" marker after the "su" statement. The "-" in Debian means that you are a "super admin". If you skip the "-", you are only a regular root user. The regular one (without the "-" argument) will work in most cases. In the cases it DO NOT work, the scripts might cause serious "fuck ups" in your system since fail-overs are not planned. If in the command line Debian ALWAYS uses the "-" argument when SUing! Else you WILL fuck up in the end (when it truly matters).
+The scripts have ONLY been verified to run as the super-administrator on Debian. This will mean running the command "su - " (without the " in the front and beginning "). DO NOT try to run the scripts without the "-" marker after the "su" statement. The "-" in Debian means that you are a "super admin". If you skip the "-", you are only a regular root user. The regular one (without the "-" argument) will work in most cases. In the cases it DO NOT work, the scripts might cause serious problems in your system since fail-overs are not planned. If in the command line Debian ALWAYS uses the "-" argument when SUing! 
 
 1. Download the script in a folder of your choice
 2. open a terminal
@@ -29,15 +27,15 @@ The scripts have ONLY been verified to run as the super-administrator on Debian.
 5. su -
 6. Give your ROOT password (not your own)
 7. ./name_of_file.sh
-8. If step 7 do not work you might try to do these commands: sh name_of_file.sh, or bash name_of_file.sh
-9. If non of them work, I am out of options ;)
+8. If step 7 does not work you might try to do these commands: sh name_of_file.sh, or bash name_of_file.sh
+9. If none of them work, I am out of options ;)
 10. As of now: DO NOT execute scripts using sudo ./script_name.sh !! You will have to be the root user. The only "safe" sudo script as of now is the script for Ubuntu users to become root ( https://github.com/iceexplorer/debian_ubuntu_simplify/blob/main/scripts/system/ubuntu_enable_root.sh )
    
 # Debian and Ubuntu Setup Scripts Repository
 
 Welcome to this Debian and Ubuntu Setup Scripts repository! This repository is dedicated to providing a collection of scripts for simplifying the setup and management of Debian and Ubuntu machines. The scripts shared here are what I always need to do, or correct, after installing a new Debian or Ubuntu system. It might be that I am plain stupid, or just forgetful (I hope for the latter ;) for making the same mistakes over, and over again. The need for these scripts is based on personal experiences and opinions, with the understanding that they may not cover every use case.
 
-These first weeks after opening the repo (starting from the last day of January 2024), it might be that some of the scripts I uploaded were not the ones that worked... I will first upload everything I believe was working, and within February 2024 I will verify every script on my Kubernetes Cluster that I am proudly working on, and will share as a new "set-up-script" project (It is f**** needed since most guides lead to a non-working system if you tend to keep it a bit secure)
+In the beginning, it might be that some of the scripts I uploaded were not the ones that worked... I will first upload everything I believe was working. Step by step I will verify every script and you are also invited to do so if you want to help out :)
 
 After all scripts are verified to work as expected, I will make some scripts in the main folder to make this easy. As of now, the scripts are fragmented and sorted by function. The plan is to make a good "overall" .sh file that is user-friendly and is located at the root of this project.
 
