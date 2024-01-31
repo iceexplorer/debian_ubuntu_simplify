@@ -20,6 +20,7 @@ The scripts have ONLY been verified to run as the super-administrator on Debian.
 7. ./name_of_file.sh
 8. If step 7 do not work you might try to do these commands: sh name_of_file.sh, or bash name_of_file.sh
 9. If non of them work, I am out of options ;)
+10. As of now: DO NOT execute scripts using sudo ./script_name.sh !! You will have to be the root user. The only "safe" sudo script as of now is the script for Ubuntu users to become root ( https://github.com/iceexplorer/debian_ubuntu_simplify/blob/main/scripts/system/ubuntu_enable_root.sh )
    
 # Debian and Ubuntu Setup Scripts Repository
 
