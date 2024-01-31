@@ -10,7 +10,7 @@ Sometime in the near future, there will be a user-friendly script to use the scr
 
 **ALL scripts NEED to be run as super-root. To be super-root use the command "su -" in the command line **
 
-The scripts have ONLY been verified to run as the super-administrator on Debian. This will mean running the command "su - " (without the " in the front and beginning "). DO NOT try to run the scripts without the "-" marker after the "su" statement. The "-" in Debian means that you are a "super admin". If you skip the "-", you are only a regular root user. The regular one (without the "-" argument) will work in most cases. In the cases it DO NOT work, the scripts will cause serious "fuck ups" in your system since fail-overs is not planned. If in command line Debian ALWAYS use the "-" argument when SUing! Else you WILL fuck up in the end (when it truly matters).
+The scripts have ONLY been verified to run as the super-administrator on Debian. This will mean running the command "su - " (without the " in the front and beginning "). DO NOT try to run the scripts without the "-" marker after the "su" statement. The "-" in Debian means that you are a "super admin". If you skip the "-", you are only a regular root user. The regular one (without the "-" argument) will work in most cases. In the cases it DO NOT work, the scripts might cause serious "fuck ups" in your system since fail-overs are not planned. If in the command line Debian ALWAYS uses the "-" argument when SUing! Else you WILL fuck up in the end (when it truly matters).
 
 1. Download the script in a folder of your choice
 2. open a terminal
