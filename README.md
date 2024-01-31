@@ -9,6 +9,7 @@ The scripts are mainly tested on Debian, but also on Ubuntu. It may also happen 
 Sometime in the near future, there will be a user-friendly script to use the scripts released here. Right now, these scripts are NOT user-friendly 🤭 even though this whole project is about being user-friendly 🤪 I just need a bit more time to do so. Until I find the time, this is how you can run the scripts:
 
 **ALL scripts NEED to be run as root, or the sudo user. **
+
 The scripts have ONLY been verified to run as the super-administrator on Debian. This will mean running the command "su - " (without the " in the front and beginning "). DO NOT try to run the scripts without the "-" marker after the "su" statement. The "-" in Debian means that you are a "super admin". If you skip the "-", you are only a regular root user. The regular one (without the "-" argument) will work in most cases. In the cases it DO NOT work, the scripts will cause serious "fuck ups" in your system since fail-overs is not planned. If in command line Debian ALWAYS use the "-" argument when SUing! Else you WILL fuck up in the end (when it truly matters).
 
 1. Download the script in a folder of your choice
