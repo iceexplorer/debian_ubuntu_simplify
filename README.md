@@ -9,7 +9,7 @@ If you choose to run the script https://github.com/iceexplorer/debian_ubuntu_sim
 
 If you do not know what you are doing (e.g. a previous Windows user ;) Just run it!
 
-If you think you know what you are doing, just read the code and then decide.
+If you think you know what you are doing, just read the code, "cherry-pick" or just decide to go with the flow.
 
 # How to run the scripts right now?
 Sometime in the near future, there will be a user-friendly script to use the scripts released here. Right now, these scripts are NOT user-friendly 🤭 even though this whole project is about being user-friendly 🤪 These are just my personal made scripts, and I just need a bit more time to make them user-friendly for the public domain. Please bear with me, and my "nerdy" tendencies where the how-to is in my brain only. Until I find the time, this is how you can run the scripts:
