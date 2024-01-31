@@ -12,7 +12,7 @@ If you do not know what you are doing (e.g. a previous Windows user ;) Just run 
 If you think you know what you are doing, just read the code and then decide.
 
 # How to run the scripts right now?
-Sometime in the near future, there will be a user-friendly script to use the scripts released here. Right now, these scripts are NOT user-friendly 🤭 even though this whole project is about being user-friendly 🤪 I just need a bit more time to make them user-friendly. Until I find the time, this is how you can run the scripts:
+Sometime in the near future, there will be a user-friendly script to use the scripts released here. Right now, these scripts are NOT user-friendly 🤭 even though this whole project is about being user-friendly 🤪 These are just my personal made scripts, and I just need a bit more time to make them user-friendly for the public domain. Please bear with me, and my "nerdy" tendencies where the how-to is in my brain only. Until I find the time, this is how you can run the scripts:
 
 **ALL scripts NEED to be run as super-root. To be super-root use the command "su -" in the command line **
 
