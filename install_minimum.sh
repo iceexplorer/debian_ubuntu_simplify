@@ -15,5 +15,11 @@ apt install -y build-essential
 # Install necessary tools
 apt install -y wget git python python-dev
 
+# Install SSH server
+apt install -y openssh-server
+
+# Install SSL Engine
+apt install -y libssl-dev
+
 # Provide information to the user
-echo "Essential tools and dependencies have been installed."
+echo "Essential tools, dependencies, SSH server, and SSL Engine have been installed."
