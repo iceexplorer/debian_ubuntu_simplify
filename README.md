@@ -5,7 +5,9 @@ Most of my machines are servers, many of them with GUI (Graphical User Interface
 
 The scripts are mainly tested on Debian, but also on Ubuntu. It may also happen that the scripts will work well on other Debian-based systems (such as Ubuntu). Please give feedback on what distros these scripts might be useful on (I only do Debian and some Ubuntu`s for fun).
 
-If you choose to run the the script https://github.com/iceexplorer/debian_ubuntu_simplify/blob/main/install_minimum.sh this will install some needed security features such as ufw (Uncomplicated Firewall) which controls IPtables, which perhaps is the world's best FireWall, configures it to not block you out of your server (SSH). In addition, the script installs the ssh server and everything needed to make, handle, and install certificates. In addition, it protects your system by installing an application called fail2ban that protects your system from direct attacks, as DDoS attacks. If you do not know what you are doing (e.g. a previous Windows user ;) Just run it!
+If you choose to run the script https://github.com/iceexplorer/debian_ubuntu_simplify/blob/main/install_minimum.sh this will install some needed security features such as ufw (Uncomplicated Firewall) which controls IPtables, which perhaps is the world's best FireWall, configures it to not block you out of your server (SSH). In addition, the script installs the SSH server and everything needed to make, handle, and install certificates. In addition, it protects your system by installing an application called fail2ban that protects your system from direct attacks, as DDoS attacks. If you do not know what you are doing (e.g. a previous Windows user ;) Just run it!
+
+If you think you know what you are doing, just read the code and then decide.
 
 # How to run the scripts right now?
 Sometime in the near future, there will be a user-friendly script to use the scripts released here. Right now, these scripts are NOT user-friendly 🤭 even though this whole project is about being user-friendly 🤪 I just need a bit more time to make them user-friendly. Until I find the time, this is how you can run the scripts:
