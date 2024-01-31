@@ -6,9 +6,13 @@ Most of my machines are servers, many of them with GUI (Graphical User Interface
 The scripts are mainly tested on Debian, but also on Ubuntu. It may also happen that the scripts will work well on other Debian-based systems (such as Ubuntu). Please give feedback on what distros these scripts might be useful on (I only do Debian and some Ubuntu`s for fun).
 
 # How to run the scripts right now?
-Sometime in the near future, there will be a user-friendly script to use the scripts released here. Right now, these scripts are NOT user-friendly 🤭 even though this whole project is about being user-friendly 🤪 I just need a bit more time to do so. Until I find the time, this is how you can run the scripts:
+Sometime in the near future, there will be a user-friendly script to use the scripts released here. Right now, these scripts are NOT user-friendly 🤭 even though this whole project is about being user-friendly 🤪 I just need a bit more time to make them user-friendly. Until I find the time, this is how you can run the scripts:
 
 **ALL scripts NEED to be run as super-root. To be super-root use the command "su -" in the command line **
+
+Example to become "super root"
+su -
+(enter root password, NOT your user password, but the password to the root account. If you do not have the root password, run this script as sudo https://github.com/iceexplorer/debian_ubuntu_simplify/blob/main/scripts/system/ubuntu_enable_root.sh )
 
 The scripts have ONLY been verified to run as the super-administrator on Debian. This will mean running the command "su - " (without the " in the front and beginning "). DO NOT try to run the scripts without the "-" marker after the "su" statement. The "-" in Debian means that you are a "super admin". If you skip the "-", you are only a regular root user. The regular one (without the "-" argument) will work in most cases. In the cases it DO NOT work, the scripts might cause serious "fuck ups" in your system since fail-overs are not planned. If in the command line Debian ALWAYS uses the "-" argument when SUing! Else you WILL fuck up in the end (when it truly matters).
 
