@@ -75,9 +75,9 @@ activate_ufw_lowercase=$(echo "$activate_ufw" | tr '[:upper:]' '[:lower:]')
 
 if [ "$activate_ufw_lowercase" == "y" ]; then
     if [ "$RUN_WITH_SUDO" == true ]; then
-        sudo ufw --force enable
+        sudo ufw enable
     else
-        ufw --force enable
+        ufw enable
     fi
     echo "UFW has been activated."
 else
