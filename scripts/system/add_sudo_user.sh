@@ -11,7 +11,7 @@ echo "You are currently logged in as $(whoami)."
 read -p "Do you want to switch to root? (y/n): " switch_root
 
 if [ "$switch_root" == "y" ]; then
-    su
+    su -
 fi
 
 # Ask for the username to add to sudo
