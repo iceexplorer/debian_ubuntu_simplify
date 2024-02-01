@@ -1,10 +1,5 @@
 #!/bin/bash
 
-# Check if the script is run with root privileges
-if [ "$EUID" -ne 0 ]; then
-    echo "Please run as root or use sudo."
-    exit 1
-fi
 
 # Update package lists
 apt update
@@ -13,7 +8,7 @@ apt update
 apt install -y build-essential
 
 # Install necessary tools
-apt install -y wget git python python-dev
+apt install -y wget git python3 python3-dev
 
 # Install SSH server
 apt install -y openssh-server
@@ -30,13 +25,13 @@ ufw allow 80
 ufw allow 443
 
 # Enable UFW
-ufw --force enable
+ufw enable
 
 # Install fail2ban
 apt install -y fail2ban
 
 # Clone and update the repository once a week
-REPO_DIR="$HOME/debian_ubuntu_simplify"
+REPO_DIR="./debian_ubuntu_simplify"
 
 if [ ! -d "$REPO_DIR" ]; then
     git clone https://github.com/iceexplorer/debian_ubuntu_simplify "$REPO_DIR"
