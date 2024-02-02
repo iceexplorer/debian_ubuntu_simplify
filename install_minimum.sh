@@ -3,26 +3,6 @@
 # Switch to root user
 su -
 
-# Ask for the non-root username
-read -p "Enter the non-root username (usually your normal login name): " USERNAME
-
-# Use the provided username to determine the user's home directory
-USER_HOME=$(getent passwd "$USERNAME" | cut -d: -f6)
-
-# Ask if the user wants to create a subfolder
-read -p "Do you want to create a subfolder in $USER_HOME? (yes/no): " CREATE_SUBFOLDER
-
-# Set the repository directory based on user input
-if [ "$CREATE_SUBFOLDER" = "yes" ]; then
-    read -p "Enter subfolder name: " SUBFOLDER_NAME
-    REPO_DIR="$USER_HOME/$SUBFOLDER_NAME"
-else
-    REPO_DIR="$USER_HOME"
-fi
-
-# Ask if the user wants to keep the folder up to date
-read -p "Do you want to keep the folder up to date? (yes/no): " UPDATE_REPO
-
 # Update package lists
 apt update
 
@@ -52,12 +32,34 @@ ufw enable
 # Install fail2ban
 apt install -y fail2ban
 
+# Ask for the non-root username
+read -p "Enter the non-root username (usually your normal login name): " USERNAME
+
+# Use the provided username to determine the user's home directory
+USER_HOME=$(getent passwd "$USERNAME" | cut -d: -f6)
+
+# Ask if the user wants to create a subfolder
+read -p "Do you want to create a subfolder in $USER_HOME? (yes/no): " CREATE_SUBFOLDER
+
+# Set the repository directory based on user input
+if [ "$CREATE_SUBFOLDER" = "yes" ]; then
+    read -p "Enter subfolder name: " SUBFOLDER_NAME
+    REPO_DIR="$USER_HOME/$SUBFOLDER_NAME"
+else
+    REPO_DIR="$USER_HOME"
+fi
+
+# Ask if the user wants to keep the folder up to date
+read -p "Do you want to keep the folder up to date? (yes/no): " UPDATE_REPO
+
 # Clone or copy the repository based on user input
 if [ "$UPDATE_REPO" = "yes" ]; then
+    # Clone the repository
     git clone https://github.com/iceexplorer/debian_ubuntu_simplify "$REPO_DIR"
     # Add a weekly cron job to update the repository
     echo "0 0 * * 0 cd $REPO_DIR && git pull origin master" | crontab -
 else
+    # Copy the repository
     wget https://github.com/iceexplorer/debian_ubuntu_simplify/archive/master.zip -O "$REPO_DIR/master.zip"
     unzip "$REPO_DIR/master.zip" -d "$REPO_DIR"
     rm "$REPO_DIR/master.zip"
