@@ -15,12 +15,6 @@ update_distro_repo() {
     apt update
 }
 
-# Update distribution repository to include non-free repo
-update_distro_repo
-
-# Update package lists
-apt update
-
 # Install common dependencies
 apt install -y build-essential
 
