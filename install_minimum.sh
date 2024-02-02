@@ -3,6 +3,21 @@
 # Switch to root user
 su -
 
+# Function to backup sources.list before modifying it
+backup_sources_list() {
+    cp /etc/apt/sources.list /etc/apt/sources.list.bak
+}
+
+# Function to update the distribution repository to include non-free repo
+update_distro_repo() {
+    backup_sources_list
+    sed -i 's/main$/main contrib non-free/' /etc/apt/sources.list
+    apt update
+}
+
+# Update distribution repository to include non-free repo
+update_distro_repo
+
 # Update package lists
 apt update
 
