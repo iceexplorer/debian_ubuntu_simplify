@@ -5,6 +5,15 @@ Most of my machines are servers, many of them with GUI (Graphical User Interface
 
 The scripts are mainly tested on Debian, but also on Ubuntu. It may also happen that the scripts will work well on other Debian-based systems (such as Ubuntu). Please give feedback on what distros these scripts might be useful on (I only do Debian and some Ubuntu`s for fun).
 
+SCRIPT STATUS: BETA
+The scripts are collected from various places on my servers and workstations and is summarized here according to the "memory method". That is to say, the version posted here is what I mean to remember are working scripts. I have also some new additions to the scripts to make them a little more user-friendly, but which I do not use myself (strictly speaking the additions may be in the Alpha phase) but which I think should work.
+
+I'm in the process of testing these on freshly installed Debian (and some Ubuntus) to verify that they work properly. Bugs are being weeded out continuously, but as of now there will still be bugs. Hopefully there won't be serious consequences from any errors in the scripts...
+
+In other words: Use the scripts with caution right now! I will try to be as quick as possible to test and fix. If you want to help, any help is most welcome :)
+
+It is as much for my own part as for everyone else that I put this up here on GitHub. Then I can both collect and go through the scripts in a structured way so that I can later use them directly from GitHub. Lazy as I am ;)
+
 If you choose to run the script https://github.com/iceexplorer/debian_ubuntu_simplify/blob/main/install_minimum.sh this will install some needed security features such as ufw (Uncomplicated Firewall) which controls IPtables, which perhaps is the world's best FireWall, configures it to not block you out of your server (SSH). In addition, the script installs the SSH server and everything needed to make, handle, and install certificates. In addition, it protects your system by installing an application called fail2ban that protects your system from direct attacks, such as DDoS attacks. The script will also clone (copy) all scripts and programs to your home directory, and keep it up to date every week. Nothing will be run without you running it, but it will keep you from checking this site every day because you will know that you are always up to date :) 
 
 If you know what you are doing, just read the code, "cherry-pick" or just decide to go with the flow.
