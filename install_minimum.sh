@@ -25,7 +25,7 @@ apt update
 apt install -y build-essential
 
 # Install necessary tools
-apt install -y wget git python3 python3-dev
+apt install -y wget git python3 python3-dev nano
 
 # Install SSH server
 apt install -y openssh-server
