@@ -1,0 +1,1 @@
+#This will be the place where the installation profile for the combination of workstations, also acting as servers, will be stored. Not in use right now, but leave it be
