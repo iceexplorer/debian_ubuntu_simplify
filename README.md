@@ -6,6 +6,7 @@ Most of my machines are servers, many of them with GUI (Graphical User Interface
 The scripts are mainly tested on Debian, but also on Ubuntu. It may also happen that the scripts will work well on other Debian-based systems (such as Ubuntu). Please give feedback on what distros these scripts might be useful on (I only do Debian and some Ubuntu`s for fun).
 
 SCRIPT STATUS: BETA
+
 The scripts are collected from various places on my servers and workstations and is summarized here according to the "memory method". That is to say, the version posted here is what I mean to remember are working scripts. I have also some new additions to the scripts to make them a little more user-friendly, but which I do not use myself (strictly speaking the additions may be in the Alpha phase) but which I think should work.
 
 I'm in the process of testing these on freshly installed Debian (and some Ubuntus) to verify that they work properly. Bugs are being weeded out continuously, but as of now there will still be bugs. Hopefully there won't be serious consequences from any errors in the scripts...
