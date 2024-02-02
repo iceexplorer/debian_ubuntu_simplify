@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Switch to root
+su -
+
 # Function to determine the next Debian or Ubuntu version
 get_next_version() {
     current_version="$1"
@@ -26,12 +29,6 @@ update_sources_list() {
     sed -i "s/$current_version/$next_version/g" /etc/apt/sources.list
     echo "Sources.list updated for distribution upgrade from $current_version to $next_version."
 }
-
-# Check if the script is run as root
-if [ "$EUID" -ne 0 ]; then
-    echo "Please run this script as root."
-    exit 1
-fi
 
 # Determine distribution and version
 if [ -f /etc/debian_version ]; then
