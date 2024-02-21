@@ -25,4 +25,4 @@ systemctl start fail2ban
 systemctl enable fail2ban
 
 # Inform the user about what has happened
-echo "fail2ban is installed and configured to default settings. Furthermore, root login is disabled."
+echo "fail2ban is installed and configured to default settings. Furthermore, root login is disabled. If you use Debian 12, you will need to run the script fix_debian12-fail2ban-sshd.sh also"
