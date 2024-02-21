@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This script should fix the problems to start Fail2Ban on Debian 12. DO NOT use this script on other Debian systems! From Debian 12, they have cahanged where the needed logs are. Therefore Fail2an fails
+# This script should fix the problems to start Fail2Ban on Debian 12. DO NOT use this script on other Debian systems! From Debian 12, maintainers have changed where the needed logs are. Therefore Fail2an fails
 
 # Enable Fail2Ban for SSH
 # [sshd] section is created in the jail.local file with 'enabled=true'
